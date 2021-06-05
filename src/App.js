@@ -1,10 +1,10 @@
   import React from 'react'
-  
+  import GlobalStyle from './styles/global'
   const App = () => {
     return (
-      <div>
+      <GlobalStyle >
         Teste
-      </div>
+      </GlobalStyle>
     )
   }
   
