@@ -1,10 +1,14 @@
 import React from 'react'
-
+import { Container} from './styles'
+import List from '../List'
 const Board = () => {
     return (
-        <div>
-            
-        </div>
+        <Container>
+            <List/>
+            <List/>
+            <List/>
+            <List/>
+        </Container>
     )
 }
 
